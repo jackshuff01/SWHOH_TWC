@@ -1,0 +1,90 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Container that holds all matchup cards */
+  #matchups-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Each defending team card */
+  .matchup-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 400px; /* adjust as needed */
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Main heading for the defending team */
+  .matchup-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+  }
+  
+  /* Section styling */
+  .matchup-section {
+    margin: 12px 0;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  /* Sub-titles for smaller headings */
+  .section-subtitle {
+    font-weight: bold;
+    margin: 8px 0 4px;
+  }
+  
+  /* Lists */
+  .composition-list,
+  .omicron-list,
+  .datacron-list {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .composition-list li,
+  .omicron-list li,
+  .datacron-list li {
+    margin: 4px 0;
+  }
+  
+  /* Counter sub-widgets */
+  .counters-section {
+    margin-top: 16px;
+    border-top: 1px solid #ccc;
+    padding-top: 16px;
+  }
+  
+  /* Individual counter block */
+  .counter-section {
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #fefefe;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  /* Title row inside a counter block */
+  .counter-section-title {
+    font-weight: bold;
+    background-color: #e7e7e7;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  

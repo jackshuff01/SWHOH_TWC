@@ -1,0 +1,95 @@
+[
+    {
+      "defendingTeamName": "CLS",
+      "defendingTeamId": "cls_001",
+      "defendingTeamComposition": [
+        "Commander Luke Skywalker",
+        "Han Solo",
+        "Chewbacca",
+        "C-3PO",
+        "Chewpio (3PO & Chewie)"
+      ],
+      "defendingTeamOmicrons": [],
+      "defendingTeamDatacrons": [
+        {
+          "level": 6,
+          "bonus": "Rebel Faction Bonus +20% Health"
+        }
+      ],
+      "counters": [
+        {
+          "counterTeamComposition": [
+            "Jedi Knight Revan",
+            "Bastila Shan",
+            "Jolee Bindo",
+            "Grand Master Yoda"
+          ],
+          "counterTeamRequiredOmicrons": ["None"],
+          "counterTeamRequiredDatacrons": [
+            {
+              "level": 3,
+              "bonus": "Jedi Faction Bonus +10% Offense"
+            }
+          ],
+          "expectedBanners": 62
+        },
+        {
+          "counterTeamComposition": [
+            "Padmé Amidala",
+            "General Kenobi",
+            "Ahsoka Tano",
+            "C-3PO"
+          ],
+          "counterTeamRequiredOmicrons": ["None"],
+          "counterTeamRequiredDatacrons": [],
+          "expectedBanners": 60
+        }
+      ]
+    },
+    {
+      "defendingTeamName": "Darth Revan",
+      "defendingTeamId": "dr_002",
+      "defendingTeamComposition": [
+        "Darth Revan",
+        "Darth Malak",
+        "Bastila Shan (Fallen)",
+        "HK-47"
+      ],
+      "defendingTeamOmicrons": ["Darth Talon TW Omicron"],
+      "defendingTeamDatacrons": [
+        {
+          "level": 9,
+          "bonus": "Sith Faction Bonus +25% Crit Damage"
+        }
+      ],
+      "counters": [
+        {
+          "counterTeamComposition": [
+            "General Skywalker",
+            "ARC Trooper",
+            "Echo",
+            "Fives"
+          ],
+          "counterTeamRequiredOmicrons": ["None"],
+          "counterTeamRequiredDatacrons": [
+            {
+              "level": 6,
+              "bonus": "Clone Trooper Faction Bonus +15% Defense"
+            }
+          ],
+          "expectedBanners": 58
+        },
+        {
+          "counterTeamComposition": [
+            "Rey (Galactic Legend)",
+            "Resistance Hero Finn",
+            "Resistance Hero Poe"
+          ],
+          "counterTeamRequiredOmicrons": [],
+          "counterTeamRequiredDatacrons": [],
+          "expectedBanners": 65
+        }
+      ]
+    }
+  ]
+  
